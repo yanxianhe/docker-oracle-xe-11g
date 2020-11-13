@@ -7,7 +7,7 @@ Oracle Express Edition 11g Release 2 on Ubuntu 14.04.1 LTS
 This **Dockerfile** is a [trusted build](https://registry.hub.docker.com/u/sath89/oracle-xe-11g/) of [Docker Registry](https://registry.hub.docker.com/).
 
 
-##### docker 运行
+##### win10 docker 运行
 
 ~~~~~~
 docker run --name oracle -p 8080:8080 -p 1521:1521 -v D:\opt\docker\oracle:/u01/app/oracle  -d registry.cn-beijing.aliyuncs.com/dockermg/oracle-xe:0.2.0
