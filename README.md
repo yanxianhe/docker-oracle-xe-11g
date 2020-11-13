@@ -11,7 +11,7 @@ This **Dockerfile** is a [trusted build](https://registry.hub.docker.com/u/sath8
 ##### win10 docker 运行
 
 ~~~~~~
-docker run --name oracle -p 8080:8080 -p 1521:1521 -v D:\opt\docker\oracle:/u01/app/oracle  -d registry.cn-beijing.aliyuncs.com/dockermg/oracle-xe:0.2.0
+docker run --name oracle -p 8080:8080 -p 1521:1521 -v D:\opt\docker\oracle:/u01/app/oracle -d xianheyan/oracle-xe:latest
 ~~~~~~
 
 ##### 登录
